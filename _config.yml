@@ -120,8 +120,8 @@ author:
     - label: "Kaggle"
       icon: "fab fa-fw fa-kaggle"
       url: "https://www.kaggle.com/chenqiaochu"
-    - label: "Personal CV"
-      icon: "/assets/images/cv.jpg"
+    - label: "CV"
+      icon: "fab fa-fw fa-CV"
       url: "/assets/pdf/test.pdf"
 
 # Site Footer
