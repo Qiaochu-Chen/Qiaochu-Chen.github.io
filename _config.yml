@@ -265,6 +265,9 @@ compress_html:
   ignore:
     envs: development
 
+header:
+  image: /assets/images/head.jpg
+
 
 # Defaults
 defaults:
