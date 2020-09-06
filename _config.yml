@@ -96,7 +96,7 @@ author:
   name             : "Qiaochu Chen"
   avatar           : "/assets/images/avatar.jpg"
   bio              : "I am an Data Scientist."
-  location         : "Tokyo"
+  location         : #"Tokyo"
   email            :
   links:
     - label: "Email"
