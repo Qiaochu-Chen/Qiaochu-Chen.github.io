@@ -122,7 +122,7 @@ author:
       url: "https://www.kaggle.com/chenqiaochu"
     - label: "CV"
       icon: "far fa-fw fa-id-badge"
-      url: "/assets/pdf/test.pdf"
+      url: "/assets/cv/test.pdf"
 
 # Site Footer
 footer:
@@ -279,7 +279,7 @@ header:
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "/assets/posts"
       type: posts
     values:
       layout: single
