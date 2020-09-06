@@ -279,7 +279,7 @@ header:
 defaults:
   # _posts
   - scope:
-      path: "/assets/posts"
+      path: "/assets/posts/2020-09-06-test.md"
       type: posts
     values:
       layout: single
