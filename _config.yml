@@ -121,7 +121,7 @@ author:
       icon: "fab fa-fw fa-kaggle"
       url: "https://www.kaggle.com/chenqiaochu"
     - label: "CV"
-      icon: "fas fa-fw fa-file-word"
+      icon: "far fa-fw fa-id-badge"
       url: "/assets/pdf/test.pdf"
 
 # Site Footer
