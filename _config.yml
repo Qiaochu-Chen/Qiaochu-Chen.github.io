@@ -272,19 +272,19 @@ compress_html:
     envs: development
 
 header:
-  image: /assets/images/head.jpg
+  image: "/assets/images/head.jpg"
 
 
 # Defaults
 defaults:
   # _posts
   - scope:
-      path: "/docs/_posts"
+      path: ""
       type: posts
     values:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
