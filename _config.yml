@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "Evin Chen"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/avatar.jpg"
   bio              : "I am an Data Scientist."
   location         : "Tokyo"
   email            :
@@ -116,7 +116,10 @@ author:
       url: "https://github.com/Qiaochu-Chen"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://www.instagram.com/evin_uke/"
+    - label: "Kaggle"
+      icon: "fab fa-fw fa-kaggle"
+      url: "https://www.kaggle.com/chenqiaochu"
 
 # Site Footer
 footer:
@@ -138,7 +141,7 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "https://www.instagram.com/evin_uke/"
 
 
 # Reading Files
