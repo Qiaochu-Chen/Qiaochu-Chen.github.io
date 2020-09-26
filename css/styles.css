@@ -59,7 +59,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
   font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
   font-weight: 400;
@@ -67,6 +67,8 @@ body {
   color: #212529;
   text-align: left;  ##center,right
   background-color: #fff;
+  display:flex; flex-direction:column; justify-content:center; ?
+  min-height:100vh;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -91,7 +93,7 @@ p {
 
 abbr[title],
 abbr[data-original-title] {
-  text-decoration: underline;
+  text-decoration: text-decoration;
   -webkit-text-decoration: underline dotted;
           text-decoration: underline dotted;
   cursor: help;
@@ -159,13 +161,13 @@ sup {
 }
 
 a {
-  color: #3dd6db; #bd5d38
+  color: #212121;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
   color: #824027;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:not([href]) {
@@ -361,29 +363,29 @@ h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
   font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1.2;
   color: #343a40;
 }
 
 h1, .h1 {
-  font-size: 6rem;
+  font-size: 4.1rem;
 }
 
 h2, .h2 {
-  font-size: 3.5rem;
+  font-size: 3.0rem;
 }
 
 h3, .h3 {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 h4, .h4 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 h5, .h5 {
-  font-size: 1.25rem;
+  font-size: 1.15rem;
 }
 
 h6, .h6 {
@@ -570,10 +572,12 @@ pre code {
 
 .container-fluid, .container-xl, .container-lg, .container-md, .container-sm {
   width: 100%;
-  padding-right: 0.75rem;
-  padding-left: 0.75rem;
-  margin-right: auto;
-  margin-left: auto;
+  padding-right: 3rem;
+  padding-left: 3rem;
+  /* margin-right: auto;
+  margin-left: auto; */
+  max-width: 1300px;
+  margin: 0 auto;
 }
 
 @media (min-width: 576px) {
@@ -3940,8 +3944,8 @@ input[type=button].btn-block {
 }
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-  color: #495057;
-  background-color: #fff;
+  color: #06111c;
+  background-color: #000000; #fff
   border-color: #dee2e6 #dee2e6 #fff;
 }
 .nav-tabs .dropdown-menu {
@@ -3956,7 +3960,7 @@ input[type=button].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #bd5d38;
+  background-color: #000000;
 }
 
 .nav-fill .nav-item {
@@ -4128,7 +4132,7 @@ input[type=button].btn-block {
     padding-left: 0.5rem;
   }
   .navbar-expand-md > .container,
-.navbar-expand-md > .container-fluid,
+.navbar-expand-md > .resume-section,
 .navbar-expand-md > .container-sm,
 .navbar-expand-md > .container-md,
 .navbar-expand-md > .container-lg,
@@ -4305,16 +4309,16 @@ input[type=button].btn-block {
 }
 
 .navbar-dark .navbar-brand {
-  color: #fff;
+  color: #fff;  title颜色
 }
 .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
   color: #fff;
 }
 .navbar-dark .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.7);  字体颜色
 }
 .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(255, 255, 255, 0.90);
 }
 .navbar-dark .navbar-nav .nav-link.disabled {
   color: rgba(255, 255, 255, 0.25);
@@ -4323,7 +4327,7 @@ input[type=button].btn-block {
 .navbar-dark .navbar-nav .active > .nav-link,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: #fff;
+  color: #132054; #fff
 }
 .navbar-dark .navbar-toggler {
   color: rgba(255, 255, 255, 0.5);
@@ -4336,10 +4340,10 @@ input[type=button].btn-block {
   color: rgba(255, 255, 255, 0.5);
 }
 .navbar-dark .navbar-text a {
-  color: #fff;
+  color: #000000;
 }
 .navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
-  color: #fff;
+  color: #000000;
 }
 
 .card {
@@ -6097,7 +6101,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #bd5d38 !important;    ## navibar sidebar color
+  background-color: #ffffff !important;    ## navibar sidebar color #bd5d38
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -6163,7 +6167,7 @@ button.bg-danger:focus {
 a.bg-light:hover, a.bg-light:focus,
 button.bg-light:hover,
 button.bg-light:focus {
-  background-color: #dae0e5 !important;
+  background-color: #ffffff !important;
 }
 
 .bg-dark {
@@ -9799,7 +9803,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #0c7bc9 !important;  #bd5d38
+  color: #054069 !important;  #bd5d38#0c7bc9
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -9915,7 +9919,7 @@ a.text-dark:hover, a.text-dark:focus {
   }
 
   a:not(.btn) {
-    text-decoration: underline;
+    text-decoration: none;
   }
 
   abbr[title]::after {
@@ -10008,7 +10012,7 @@ body {
 @media (min-width: 992px) {
   body {
     padding-top: 0;
-    padding-left: 17rem;
+    padding-left: 0rem;
   }
 }
 h1,
@@ -10052,9 +10056,11 @@ p.lead {
     top: 0;
     left: 0;
     display: flex;
+    margin: 0 auto;
     flex-direction: column;
-    width: 17rem;
+    width: 15rem;
     height: 100vh;
+    border-right: 1px solid #e3e3e3 !important;
   }
   #sideNav .navbar-brand {
     display: flex;
@@ -10114,7 +10120,7 @@ section.resume-section {
   padding-right: 1rem;
   padding-top: 5rem;
   padding-bottom: 5rem;
-  max-width: 80rem;
+  max-width: 76rem;
 }
 section.resume-section .resume-section-content {
   width: 100%;
