@@ -87,8 +87,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  margin-top: 0;
-  margin-bottom: 1rem;
+  margin-top: 0.5;
+  margin-bottom: 0.5rem;
 }
 
 abbr[title],
@@ -363,8 +363,8 @@ h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
   font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-weight: 600;
-  line-height: 1.2;
+  font-weight: 510;
+  line-height: 1.;
   color: #343a40;
 }
 
@@ -7636,7 +7636,7 @@ button.bg-dark:focus {
 
 .mb-5,
 .my-5 {
-  margin-bottom: 3rem !important;
+  margin-bottom: 2rem !important;
 }
 
 .ml-5,
@@ -10094,12 +10094,12 @@ p.lead {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  height: 3rem;
-  width: 3rem;
-  background-color: #495057;
+  height: 2.5rem;
+  width: 2.5rem;
+  background-color: #4479ad;
   color: #fff;
   border-radius: 100%;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   margin-right: 1.5rem;
 }
 .social-icons .social-icon:last-child {
